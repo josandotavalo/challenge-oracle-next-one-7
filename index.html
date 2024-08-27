@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Des/En-criptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="txt_bt">
+            <textarea id="input-text" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+            <div class="bt_izq">
+                <button id="encrypt-btn" onclick="encriptar()">Encriptar</button>
+                <button id="decrypt-btn" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="txt_bt" id="divIMG">
+            <img src="./img/lupa.png" alt="Icono de lupa"/>
+        </div>
+        <div class="txt_bt" id="divTXT">
+            <textarea id="output-text" rows="10" readonly></textarea>
+            <button id="copy-btn" onclick="copiar()" class="bt_izq">Copiar</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Desarrollado por José Andrés Otavalo</p>
+        <p>Contacto: jotavalo.quito@gmail.com</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

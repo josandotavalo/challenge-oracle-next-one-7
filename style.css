@@ -1,0 +1,60 @@
+/* Color de fondo para el body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Cambia el color de fondo aquí */
+}
+
+/* Estilos principales */
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: auto;
+    margin: 20px auto;
+    background-color: #ffffff; /* Fondo blanco para el contenedor principal */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para el contenedor */
+}
+
+/* Estilos para las cajas de texto */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none; /* Eliminar borde */
+    border-radius: 4px; /* Opcional: añadir bordes redondeados */
+    background-color: #f0f8ff; /* Mismo color de fondo que el body */
+    box-sizing: border-box; /* Asegurarse de que el padding se incluye en el ancho total */
+    margin-bottom: 10px; /* Espacio entre las cajas de texto y otros elementos */
+}
+
+/* Estilos de botones */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Contenedor de botones */
+.txt_bt {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bt_izq {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
